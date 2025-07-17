@@ -41,7 +41,7 @@ export default function ParallaxGallery({ images }: { images: string[] }) {
         <div className="bg-black/80 sm:bg-black/80 h-full flex justify-center items-center p-2 sm:p-8 rounded-lg">
           <p className="text-2xl sm:text-4xl font-medium text-white">
             It was in the wee hours of September 6, 2019, when the dust on the
-            Moon's surface began to flicker from its ancient hibernation,
+            Moon&apos;s surface began to flicker from its ancient hibernation,
             feeling the rumblings of engines hurtling overhead. Chandrayaan-2
             was on the final stretch. But it all ended in despair. Four years
             later, India is back at it. Chandrayaan-3 is on the final approach
@@ -87,9 +87,9 @@ export default function ParallaxGallery({ images }: { images: string[] }) {
       content: (
         <div className="bg-white/70 p-4 sm:p-8 rounded-lg">
           <p className="text-base sm:text-xl font-medium text-black">
-            Vikram, Chandrayaan-3's lander, is a crucial component equipped with
-            four throttle-able engines, enhancing its landing precision. The
-            lander is designed with a Laser Doppler Velocimeter (LDV) and
+            Vikram, Chandrayaan-3&apos;s lander, is a crucial component equipped
+            with four throttle-able engines, enhancing its landing precision.
+            The lander is designed with a Laser Doppler Velocimeter (LDV) and
             various subsystems like navigation sensors and propulsion systems to
             ensure a safe and soft landing on the Moon. With advanced
             hazard-detection cameras, stronger landing legs, and the ability to
@@ -115,17 +115,18 @@ export default function ParallaxGallery({ images }: { images: string[] }) {
       content: (
         <div className="bg-white/70 p-4 sm:p-8 rounded-lg">
           <p className="text-base sm:text-xl font-medium text-black">
-            The propulsion module plays a crucial role in the spacecraft's
+            The propulsion module plays a crucial role in the spacecraft&apos;s
             journey. It carried the lander and rover configuration until the
             spacecraft reached a 100 km lunar orbit. The module functions like a
             communication relay satellite, ensuring smooth transmission of
-            information. It was also responsible for raising the spacecraft's
-            orbit several times before transferring it into the lunar orbit and
-            subsequently lowering it until it reached a circular, 100-kilometer
-            orbit. The module also houses the Spectro-polarimetry of Habitable
-            Planet Earth (SHAPE) payload, which will now study spectral and
-            polarimetric measurements of Earth from the lunar orbit to be used
-            for finding life outside the Solar System.
+            information. It was also responsible for raising the
+            spacecraft&apos;s orbit several times before transferring it into
+            the lunar orbit and subsequently lowering it until it reached a
+            circular, 100-kilometer orbit. The module also houses the
+            Spectro-polarimetry of Habitable Planet Earth (SHAPE) payload, which
+            will now study spectral and polarimetric measurements of Earth from
+            the lunar orbit to be used for finding life outside the Solar
+            System.
           </p>
         </div>
       ),
@@ -317,7 +318,7 @@ export default function ParallaxGallery({ images }: { images: string[] }) {
           {idx < 35 && (
             <div className="">
               <h1 className="text-[5rem] sm:text-[12rem] font-bold text-center uppercase font-bebas leading-20 sm:leading-26 mb-5">
-                India's
+                India&apos;s
                 <br />
                 <span className="text-[5rem] sm:text-[8rem]">Moonshot</span>
               </h1>
